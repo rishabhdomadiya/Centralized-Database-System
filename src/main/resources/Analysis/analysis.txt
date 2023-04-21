@@ -1,0 +1,7 @@
+
+Analysis Query: count delete db1 by eyes
+ Result: Total 1 Delete operations were performed on employee, Result: Total 1 Delete operations were performed on department,
+Analysis Query: count insert db1 by eyes
+ Result: Total 2 Insert operations were performed on department,
+Analysis Query: count update db1 by eyes
+ Result: Total 2 Update operations were performed on department, Result: Total 2 Update operations were performed on employee,

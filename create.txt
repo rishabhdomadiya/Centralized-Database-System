@@ -1,0 +1,16 @@
+Create table Employee ( 
+ emp_id int, 
+name string, 
+dep_id int, 
+PRIMARY KEY ( emp_id), 
+ Foreign KEY (dep_id) REFERENCES   Department ( dep_id ) );
+Create table Department ( 
+ dep_id int, 
+name string, 
+PRIMARY KEY ( dep_id) );
+Create table Student ( 
+ stud_id int, 
+name string, 
+dep_id int, 
+PRIMARY KEY ( stud_id), 
+ Foreign KEY (dep_id) REFERENCES  Department ( dep_id ) );

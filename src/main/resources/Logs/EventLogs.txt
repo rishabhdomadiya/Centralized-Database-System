@@ -1,0 +1,20 @@
+[User: anujdev] [Query: show databases;]
+[User: anujdev] [Query: create database university;]
+[User: anujdev] [Query: use university;]
+[User: anujdev] [Query: create table departments (Dept_ID int, Name string, PRIMARY KEY Dept_ID);]
+[User: anujdev] [Query: create table students (Stu_ID int, Name string, PRIMARY KEY Stu_ID, FOREIGN KEY Dept_ID departments);]
+[User: anujdev] [Query: insert into departments (Dept_ID, Name) values (1, Computer Science);]
+[User: anujdev] [Query: insert into students (Stu_ID, Name, Dept_ID) values (1, Dustin, 1);]
+[User: anujdev] [Query: insert into students (Stu_ID, Name, Dept_ID) values (2, Jeffrey, 1);]
+[User: anujdev] [Query: select * from students;]
+[User: anujdev] [Query: select * from students where Dept_ID=1;]
+[User: anujdev] [Query: select * from students where Dept_ID=1;]
+[User: anujdev] [Query: update students set Dept_ID=1 where Stu_ID=1;]
+[User: anujdev] [Query: begin transaction t1;]
+[User: anujdev] [Query: use university;]
+[User: anujdev] [Query: insert into departments (Dept_ID, Name) values (2, Management);]
+[User: anujdev] [Query: commit transaction t1;]
+Metadata successfully fetched of table: university while generating ERD
+[User: anujdev] ERD Generated Successfully for Database :university
+Metadata successfully fetched of table: university while generating ERD
+[User: anujdev] ERD Generated Successfully for Database :university
